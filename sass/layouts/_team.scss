@@ -1,0 +1,78 @@
+.team{
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+ @media screen and (min-width: 1200px){
+  padding-top: 94px;
+  padding-bottom: 94px;
+ }
+  
+  &__title{
+    margin-bottom: 30px;
+
+    @media screen and (min-width: 1200px){
+      margin-bottom: 50px;
+     }
+  }
+
+  &--section {
+    background-color: #f5f4fa;
+  }
+    &__list {
+      //  display: flex;
+       --items: 1;
+       --indent:30px;
+
+       @media screen and (min-width: 768px){
+        --items:2;
+         }
+      @media screen and (min-width: 1200px){
+        --items:4;
+      }
+
+     }
+     &__item {
+       background-color: #ffffff;
+       box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+         0px 2px 1px rgba(0, 0, 0, 0.2);
+       border-radius: 0px 0px 4px 4px;
+
+        width: 450px;
+        height: 622px;
+
+       @media screen and (min-width: 768px) and (max-width: 1199px){
+        width: 354px;
+        height: 536px;
+       }
+
+       @media screen and (min-width: 1200px){
+        width: 270px;
+        height: 428px;
+       }
+     }
+    //  &__item:not(:last-child) {
+    //    margin-right: 30px;
+    //  }
+     &__name {
+       font-size: 16px;
+       line-height: 1.18;
+       font-weight: 500;
+       margin-bottom: 10px;
+       text-align: center;
+     }
+     &__job {
+       font-size: 16px;
+       line-height: 1.2;
+       color: var(--main-text-color);
+       text-align: center;
+     }
+     &__thumb {
+       padding: 30px 0 24px 0;
+
+       @media screen and (min-width: 1200px){
+        padding: 30px 0;
+       }
+    }
+     
+  
+}

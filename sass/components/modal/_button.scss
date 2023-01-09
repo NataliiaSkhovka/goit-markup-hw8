@@ -1,0 +1,53 @@
+.modal-button.submit {
+   padding: 10px 55px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+ }
+ .modal-button {
+   min-width: 200px;
+   min-height: 50px;
+   font-family: inherit;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.88;
+   letter-spacing: 0.06em;
+   border: none;
+   border-radius: 4px;
+   margin: 0 auto;
+   display: block;
+   color: var(--primery-white-color);
+   background-color: var(--accent-color);
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   transition: color 250ms var(--timing-function), backgroud-color 250ms var(--timing-function),
+     box-shadow 250ms var(--timing-function);
+ }
+ .modal-button:hover,
+ .modal-button:focus {
+   color: var(--primery-white-color);
+   background-color: var(--accent-color);
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   cursor: pointer;
+ }
+ .close-button {
+   position: absolute;
+   top: 8px;
+   right: 8px;
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   border: 1px solid rgba(0, 0, 0, 0.1);
+   padding: 0;
+   cursor: pointer;
+   fill: #000000;
+   background-color: rgba(255, 255, 255, 1);
+   transition: fill 250ms var(--timing-function);
+ }
+ .icon-close {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
+ .close-button:focus,
+ .close-button:hover {
+   fill: var(--accent-color);
+ }

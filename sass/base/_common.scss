@@ -1,0 +1,16 @@
+body {
+   font-family: var(--main-font);
+   font-size: 14px;
+   letter-spacing: 0.03em;
+   font-weight: 400;
+   color: var(--secondary-text-color);
+   background-color: var(--primery-white-color);
+ }
+ html {
+   box-sizing: border-box;
+ }
+ *,
+ *::after,
+ *::before {
+   box-sizing: inherit;
+ }

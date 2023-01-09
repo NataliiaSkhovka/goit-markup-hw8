@@ -1,0 +1,39 @@
+
+.about{
+  @media screen and (max-width: 1199px){
+    display: none;
+   }
+}
+.about {
+
+   @extend %section;
+   padding-top: 0;
+   
+    &__item {
+      overflow: hidden;
+    }
+    &__thumb {
+      position: relative;
+    }
+    &__text{
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 1.14;
+      text-align: center;
+      text-transform: uppercase;
+      color: var(--primery-white-color);
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 27px;
+    }
+    &__list {
+      display: flex;
+    }
+    &__item:not(:last-child) {
+      margin-right: 30px;
+    }
+}
+ 
+ 
