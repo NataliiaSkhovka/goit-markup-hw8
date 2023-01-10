@@ -362,32 +362,14 @@ img {
       flex-basis: calc((100% - var(--indent) * var(--items) - 1) / var(--items));
 }
 
-@media screen and (min-width: 480px) {
-  .footer-form {
-    display: block;
-    text-align: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .footer-form {
-    display: block;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
+.footer-form {
+  display: block;
 }
 @media screen and (min-width: 1200px) {
   .footer-form {
-    display: blok;
-    -webkit-box-pack: baseline;
-        -ms-flex-pack: baseline;
-            justify-content: baseline;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
@@ -1672,6 +1654,11 @@ textarea {
 
 .singup {
   text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .singup {
+    text-align: start;
+  }
 }
 .singup__title {
   margin-bottom: 20px;

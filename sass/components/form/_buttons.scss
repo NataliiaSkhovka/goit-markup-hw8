@@ -1,32 +1,22 @@
-.btn--footer{
-  align-items: center;
-   text-align: center;
-   
-  @media screen and (min-width: 480px){
-  
-   justify-content: center;
-  
-    margin-top: 20px;
-   
-  } 
-  @media screen and (min-width: 768px) and (max-width: 1199px){
-  display: block;
-  
-  }
-
-   
-  @media screen and (min-width: 1200px){
-  
+.footer-form__button {
   display: inline-flex;
+  min-width: 200px;
+  cursor: pointer;
+  justify-content: center;
   align-items: center;
-  text-align: center;
-   margin-left: 12px;
-   padding: 10px 29px;
- }
-}
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
 
-.icon-send {
-  align-items: center;
-   margin-left: 10px;
-   fill: currentColor;
- }
+}
+.footer-form__button-icon {
+  margin-left: 10px;
+}
