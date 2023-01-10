@@ -1596,6 +1596,9 @@ textarea {
   color: var(--primery-white-color);
 }
 
+.footer-address {
+  margin-bottom: 60px;
+}
 .footer-address__link {
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
