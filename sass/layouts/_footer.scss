@@ -64,16 +64,15 @@
 }
 
 .footer-social--thumb{
+  text-align: center;
   color: var(--primery-white-color);
+  margin-bottom: 60px;
   
 
-  @media screen and (min-width: 480px) and (max-width: 767px){
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    margin-top: 60px;
-    
-   }
+  @media screen and (min-width: 1200px) {
+    text-align: start;
+    margin-bottom: 0;
+}
 
    @media screen and (min-width: 768px){
    
@@ -107,3 +106,14 @@
   margin-bottom: 20px;
 }
 
+.singup{
+  text-align: center;
+
+  &__title{
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: #fff;
+  }
+}
